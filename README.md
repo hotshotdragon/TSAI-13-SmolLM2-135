@@ -1,6 +1,6 @@
 # SmolLM2 Language Model
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyTorch](https://img.shields.io/badge/PyTorch+-ee4c2c.svg)](https://pytorch.org/get-started/locally/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -24,6 +24,10 @@ SmolLM2 implements a smaller version of the LLaMA architecture with:
 - **Gradient Clipping**: To stabilize training
 - **Top-k and Top-p Sampling**: For controllable text generation
 - **Checkpointing**: Regular model checkpoints with timestamp-based naming
+- **Rotary Position Embeddings (RoPE)**: Modern positional encoding scheme
+- **Weight Tying**: Embedding layer and output layer share weights to reduce parameter count
+- **RMS Normalization**: Used instead of traditional LayerNorm for better stability
+- **SiLU Activation**: Non-linear activation function in MLP blocks
 
 ## Requirements
 
@@ -79,14 +83,6 @@ SmolLM2 follows a decoder-only transformer architecture inspired by the Llama mo
 - **Activation Function**: SiLU (Sigmoid Linear Unit)
 - **Normalization**: RMS Normalization
 - **Vocabulary Size**: 50,257 tokens
-
-## Key Features
-
-1. **Efficient Architecture**: Leverages grouped-query attention for computational efficiency
-2. **Rotary Position Embeddings (RoPE)**: Modern positional encoding scheme
-3. **Weight Tying**: Embedding layer and output layer share weights to reduce parameter count
-4. **RMS Normalization**: Used instead of traditional LayerNorm for better stability
-5. **SiLU Activation**: Non-linear activation function in MLP blocks
 
 ### Hyperparameters
 
