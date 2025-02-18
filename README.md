@@ -119,6 +119,12 @@ Training progress is logged to both console and a file (`training-v3.log`), incl
 - Gradient norm
 - Generated text samples at checkpoint intervals
 
+## Demo
+
+Try out SmolLM2 in action: [Gibberish-LOTR on Hugging Face Spaces](https://huggingface.co/spaces/hotshotdragon/Gibberish-LOTR)
+
+This demo showcases the model generating Tolkien-inspired text. It demonstrates how SmolLM2 can be fine-tuned on specific domains while maintaining efficient inference.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
