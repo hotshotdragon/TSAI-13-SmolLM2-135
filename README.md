@@ -1,7 +1,7 @@
 # SmolLM2 Language Model
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-ee4c2c.svg)](https://pytorch.org/get-started/locally/)
+[![PyTorch](https://img.shields.io/badge/PyTorch+-ee4c2c.svg)](https://pytorch.org/get-started/locally/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
@@ -64,13 +64,29 @@ generated_text = generate_text(model, prompt,
 print(generated_text)
 ```
 
+
 ## Model Architecture
 
-SmolLM2 follows a decoder-only transformer architecture with:
+SmolLM2 follows a decoder-only transformer architecture inspired by the Llama model family:
 
-```
-Embedding → [Attention → MLP] × 30 → LayerNorm → Linear
-```
+- **Parameters**: ~135M
+- **Hidden Size**: 576
+- **Intermediate Size (MLP)**: 1536
+- **Layers**: 30 transformer decoder layers
+- **Attention Heads**: 9
+- **Key-Value Heads**: 3 (grouped-query attention)
+- **Max Sequence Length**: 2048 tokens
+- **Activation Function**: SiLU (Sigmoid Linear Unit)
+- **Normalization**: RMS Normalization
+- **Vocabulary Size**: 50,257 tokens
+
+## Key Features
+
+1. **Efficient Architecture**: Leverages grouped-query attention for computational efficiency
+2. **Rotary Position Embeddings (RoPE)**: Modern positional encoding scheme
+3. **Weight Tying**: Embedding layer and output layer share weights to reduce parameter count
+4. **RMS Normalization**: Used instead of traditional LayerNorm for better stability
+5. **SiLU Activation**: Non-linear activation function in MLP blocks
 
 ### Hyperparameters
 
