@@ -1,0 +1,161 @@
+2025-02-03 22:12:14,802 - INFO - Step: 5000/5050 | Loss: 0.0386
+2025-02-03 22:12:16,713 - INFO - Step: 5005/5050 | Loss: 0.0447
+2025-02-03 22:12:18,630 - INFO - Step: 5010/5050 | Loss: 0.0459
+2025-02-03 22:12:20,548 - INFO - Step: 5015/5050 | Loss: 0.0476
+2025-02-03 22:12:22,466 - INFO - Step: 5020/5050 | Loss: 0.0510
+2025-02-03 22:12:24,386 - INFO - Step: 5025/5050 | Loss: 0.0608
+2025-02-03 22:12:26,317 - INFO - Step: 5030/5050 | Loss: 0.0806
+2025-02-03 22:12:28,242 - INFO - Step: 5035/5050 | Loss: 0.0688
+2025-02-03 22:12:30,168 - INFO - Step: 5040/5050 | Loss: 0.0625
+2025-02-03 22:12:32,099 - INFO - Step: 5045/5050 | Loss: 0.0625
+2025-02-03 22:12:34,467 - INFO - Saved continued training model to model_checkpoints_1\continued_50_5050.pt
+2025-02-18 13:55:47,124 - INFO - Continue Training Script Started
+2025-02-18 13:55:47,124 - INFO - Script Started
+2025-02-18 13:55:47,162 - INFO - Using device: cuda
+2025-02-18 13:55:47,162 - INFO - Loading checkpoint from saved_models\smollm2-135_20250218_133517.pt
+2025-02-18 13:55:50,550 - INFO - Checkpoint loaded successfully.
+2025-02-18 13:55:51,883 - INFO - loaded 1866798 tokens
+2025-02-18 13:55:51,883 - INFO - 1 epoch = 911 batches
+2025-02-18 13:55:54,345 - INFO - step 5000 | loss: 1.2555 | dt: 2442.53ms | tok/sec: 838.47 | norm: 4.59
+2025-02-18 13:55:55,609 - INFO - Generated text at step 5000:
+Through Rohan over fen and field where the long grass grows the the the the the The The the The road forest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2025-02-18 13:55:57,561 - INFO - step 5001 | loss: 0.8352 | dt: 1950.92ms | tok/sec: 1049.76 | norm: 4.18
+2025-02-18 13:55:59,414 - INFO - step 5002 | loss: 0.5535 | dt: 1851.22ms | tok/sec: 1106.29 | norm: 3.25
+2025-02-18 13:56:01,267 - INFO - step 5003 | loss: 0.8602 | dt: 1853.63ms | tok/sec: 1104.86 | norm: 3.86
+2025-02-18 13:56:03,120 - INFO - step 5004 | loss: 0.3564 | dt: 1852.69ms | tok/sec: 1105.42 | norm: 2.26
+2025-02-18 13:56:04,958 - INFO - step 5005 | loss: 0.6824 | dt: 1838.10ms | tok/sec: 1114.19 | norm: 2.92
+2025-02-18 13:56:06,788 - INFO - step 5006 | loss: 0.4736 | dt: 1829.19ms | tok/sec: 1119.62 | norm: 2.29
+2025-02-18 13:56:08,663 - INFO - step 5007 | loss: 0.4223 | dt: 1875.32ms | tok/sec: 1092.08 | norm: 1.82
+2025-02-18 13:56:10,497 - INFO - step 5008 | loss: 0.5942 | dt: 1833.36ms | tok/sec: 1117.07 | norm: 2.44
+2025-02-18 13:56:12,368 - INFO - step 5009 | loss: 0.1928 | dt: 1870.85ms | tok/sec: 1094.69 | norm: 0.97
+2025-02-18 13:56:14,206 - INFO - step 5010 | loss: 0.0861 | dt: 1836.95ms | tok/sec: 1114.89 | norm: 0.63
+2025-02-18 13:56:15,373 - INFO - Generated text at step 5010:
+Through Rohan over fen and field where the long grass grows the. trees trees fingers..ensensenss),),),),),),'s's's's's's's's's's's's's's's's's's's's's's's's's's's's's's's's's
+2025-02-18 13:56:17,196 - INFO - step 5011 | loss: 0.4740 | dt: 1821.64ms | tok/sec: 1124.26 | norm: 1.45
+2025-02-18 13:56:19,034 - INFO - step 5012 | loss: 0.1421 | dt: 1837.99ms | tok/sec: 1114.26 | norm: 0.72
+2025-02-18 13:56:20,894 - INFO - step 5013 | loss: 0.1145 | dt: 1859.95ms | tok/sec: 1101.11 | norm: 0.63
+2025-02-18 13:56:22,726 - INFO - step 5014 | loss: 0.1082 | dt: 1831.04ms | tok/sec: 1118.49 | norm: 0.64
+2025-02-18 13:56:24,559 - INFO - step 5015 | loss: 0.0802 | dt: 1833.68ms | tok/sec: 1116.88 | norm: 0.53
+2025-02-18 13:56:26,394 - INFO - step 5016 | loss: 0.1039 | dt: 1833.97ms | tok/sec: 1116.71 | norm: 0.53
+2025-02-18 13:56:28,211 - INFO - step 5017 | loss: 0.1038 | dt: 1816.37ms | tok/sec: 1127.52 | norm: 0.56
+2025-02-18 13:56:30,032 - INFO - step 5018 | loss: 0.0577 | dt: 1821.78ms | tok/sec: 1124.18 | norm: 0.39
+2025-02-18 13:56:32,004 - INFO - step 5019 | loss: 0.0654 | dt: 1971.87ms | tok/sec: 1038.61 | norm: 0.46
+2025-02-18 13:56:33,845 - INFO - step 5020 | loss: 0.1308 | dt: 1839.96ms | tok/sec: 1113.07 | norm: 0.57
+2025-02-18 13:56:35,108 - INFO - Generated text at step 5020:
+Through Rohan over fen and field where the long grass grows them the the irresist a aarling recent 22 sharp wide wide wide hair hair light beneath light light light light light light light light light light light light light light light light light light light light light light light light light light light light light wind wind wind wind
+2025-02-18 13:56:36,952 - INFO - step 5021 | loss: 0.1055 | dt: 1842.99ms | tok/sec: 1111.24 | norm: 0.55
+2025-02-18 13:56:38,801 - INFO - step 5022 | loss: 0.0728 | dt: 1848.82ms | tok/sec: 1107.74 | norm: 0.43
+2025-02-18 13:56:40,647 - INFO - step 5023 | loss: 0.0570 | dt: 1845.84ms | tok/sec: 1109.52 | norm: 0.40
+2025-02-18 13:56:42,501 - INFO - step 5024 | loss: 0.0378 | dt: 1852.73ms | tok/sec: 1105.40 | norm: 0.32
+2025-02-18 13:56:44,335 - INFO - step 5025 | loss: 0.0440 | dt: 1834.56ms | tok/sec: 1116.34 | norm: 0.29
+2025-02-18 13:56:46,178 - INFO - step 5026 | loss: 0.0463 | dt: 1843.09ms | tok/sec: 1111.18 | norm: 0.35
+2025-02-18 13:56:48,024 - INFO - step 5027 | loss: 0.0705 | dt: 1845.57ms | tok/sec: 1109.68 | norm: 0.50
+2025-02-18 13:56:49,871 - INFO - step 5028 | loss: 0.0696 | dt: 1847.44ms | tok/sec: 1108.56 | norm: 0.37
+2025-02-18 13:56:51,725 - INFO - step 5029 | loss: 0.0688 | dt: 1853.26ms | tok/sec: 1105.08 | norm: 0.38
+2025-02-18 13:56:53,557 - INFO - step 5030 | loss: 0.0744 | dt: 1832.83ms | tok/sec: 1117.40 | norm: 0.37
+2025-02-18 13:56:54,836 - INFO - Generated text at step 5030:
+Through Rohan over fen and field where the long grass grows began darkness darkness treeThere tree tree darkness trees trees trees trees trees trees trees trees trees trees trees air morning top fortune because he, the'''''''''"" with with left left left left left left left left left left
+2025-02-18 13:56:56,694 - INFO - step 5031 | loss: 0.1027 | dt: 1858.40ms | tok/sec: 1102.02 | norm: 0.45
+2025-02-18 13:56:58,530 - INFO - step 5032 | loss: 0.0989 | dt: 1834.69ms | tok/sec: 1116.27 | norm: 0.52
+2025-02-18 13:57:00,632 - INFO - step 5033 | loss: 0.0624 | dt: 2101.24ms | tok/sec: 974.66 | norm: 0.38
+2025-02-18 13:57:02,881 - INFO - step 5034 | loss: 0.0802 | dt: 2248.96ms | tok/sec: 910.64 | norm: 0.41
+2025-02-18 13:57:04,925 - INFO - step 5035 | loss: 0.0911 | dt: 2043.12ms | tok/sec: 1002.39 | norm: 0.46
+2025-02-18 13:57:06,805 - INFO - step 5036 | loss: 0.0648 | dt: 1880.34ms | tok/sec: 1089.16 | norm: 0.40
+2025-02-18 13:57:08,641 - INFO - step 5037 | loss: 0.0609 | dt: 1835.38ms | tok/sec: 1115.85 | norm: 0.42
+2025-02-18 13:57:10,504 - INFO - step 5038 | loss: 0.0677 | dt: 1861.94ms | tok/sec: 1099.93 | norm: 0.50
+2025-02-18 13:57:12,408 - INFO - step 5039 | loss: 0.0528 | dt: 1904.36ms | tok/sec: 1075.43 | norm: 0.31
+2025-02-18 13:57:14,392 - INFO - step 5040 | loss: 0.0638 | dt: 1983.66ms | tok/sec: 1032.43 | norm: 0.37
+2025-02-18 13:57:15,647 - INFO - Generated text at step 5040:
+Through Rohan over fen and field where the long grass grows as he water tree ready him.. ask help left.. expect help drove They Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry Merry let let let think think think think think think think think think think
+2025-02-18 13:57:17,484 - INFO - step 5041 | loss: 0.0703 | dt: 1836.88ms | tok/sec: 1114.94 | norm: 0.36
+2025-02-18 13:57:19,315 - INFO - step 5042 | loss: 0.0458 | dt: 1830.71ms | tok/sec: 1118.69 | norm: 0.30
+2025-02-18 13:57:21,161 - INFO - step 5043 | loss: 0.0365 | dt: 1844.21ms | tok/sec: 1110.50 | norm: 0.27
+2025-02-18 13:57:23,016 - INFO - step 5044 | loss: 0.0352 | dt: 1855.04ms | tok/sec: 1104.02 | norm: 0.22
+2025-02-18 13:57:24,898 - INFO - step 5045 | loss: 0.0636 | dt: 1881.74ms | tok/sec: 1088.36 | norm: 0.42
+2025-02-18 13:57:26,833 - INFO - step 5046 | loss: 0.0376 | dt: 1934.65ms | tok/sec: 1058.59 | norm: 0.29
+2025-02-18 13:57:28,765 - INFO - step 5047 | loss: 0.0747 | dt: 1931.23ms | tok/sec: 1060.46 | norm: 0.37
+2025-02-18 13:57:30,822 - INFO - step 5048 | loss: 0.0889 | dt: 2055.67ms | tok/sec: 996.27 | norm: 0.42
+2025-02-18 13:57:32,826 - INFO - step 5049 | loss: 0.1278 | dt: 2004.39ms | tok/sec: 1021.76 | norm: 0.43
+2025-02-18 13:57:34,778 - INFO - step 5050 | loss: 0.0792 | dt: 1951.51ms | tok/sec: 1049.45 | norm: 0.45
+2025-02-18 13:57:35,980 - INFO - Generated text at step 5050:
+Through Rohan over fen and field where the long grass grows Men of tale shapes nearer brink found shine returned come gathered gathered cast even feared feared set offered just carried names left crossed t t t t t t t sw h t j sh h h j jH h bright r r r P rumtr's
+2025-02-18 13:57:37,307 - INFO - Model Saved to saved_models\smollm2-135_20250218_135735.pt
+2025-02-18 13:57:37,308 - INFO - Continued training complete. New checkpoint saved to saved_models\smollm2-135_20250218_135735.pt
